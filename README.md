@@ -3,6 +3,8 @@
 
 一个使用`PandoraNext-TokensTool`和`copilot`的**免费GPT4网页**demo
 
+![image](https://github.com/Yanyutin753/PandoraNext-TokensTool/assets/62874116/29cc9058-7453-40ee-84a0-a07c41abf34e)
+
 ### 如何使用？
 1. 按照这个教程[🦄 【基础】教你部署tokensTool - tokensTool](https://apifox.com/apidoc/shared-40345b46-9c9c-45cc-b494-6a6a387a978f/doc-3430777)一键部署`PandoraNext`和`tokensTool`
 2. 按照这个教程[🔥 【基础】tokensTool使用GPT-4(独享) - tokensTool](https://apifox.com/apidoc/shared-40345b46-9c9c-45cc-b494-6a6a387a978f/doc-3482396)获取`copilot`的`token`(学生可以~~**白嫖**~~，或者上某宝搞一个)

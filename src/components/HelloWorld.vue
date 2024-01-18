@@ -5,9 +5,8 @@ import MarkdownIt from "markdown-it";
 defineProps({
   msg: String,
 });
-console.log(import.meta.env);
-console.log(process.env);
-const BASE_URL = import.meta.env.BASE_URL;
+
+const VITE_API_URL = import.meta.env.VITE_API_URL;
 let token = ref("");
 let text = ref("hi");
 let res = ref("");
@@ -23,7 +22,7 @@ const ask = () => {
     body: `{"model":"gpt-4","messages":[{"role":"user","content":"${text.value}"}]}`,
   };
 
-  fetch(BASE_URL + "/v1/chat/completions", options)
+  fetch(VITE_API_URL + "/v1/chat/completions", options)
     .then((response) => response.json())
     .then((response) => {
       let r = response.choices[0].message.content;

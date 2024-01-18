@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.0.0",
+    "vercel": "^33.1.0",
     "vue": "^3.3.11"
   },
   "devDependencies": {

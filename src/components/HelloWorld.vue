@@ -5,7 +5,8 @@ import MarkdownIt from "markdown-it";
 defineProps({
   msg: String,
 });
-
+console.log(import.meta.env);
+console.log(process.env);
 const BASE_URL = import.meta.env.BASE_URL;
 let token = ref("");
 let text = ref("hi");

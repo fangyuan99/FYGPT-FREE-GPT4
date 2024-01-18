@@ -6,7 +6,7 @@ defineProps({
   msg: String,
 });
 
-const BASE_URL = process.env.BASE_URL;;
+const BASE_URL = import.meta.env.BASE_URL;
 let token = ref("");
 let text = ref("hi");
 let res = ref("");

@@ -7,7 +7,8 @@ defineProps({
 });
 
 const VITE_API_URL = import.meta.env.VITE_API_URL;
-let token = ref("");
+let token = ref(import.meta.env.VITE_TOKEN ?? "");
+console.log(token.value);
 let text = ref("hi");
 let res = ref("");
 
